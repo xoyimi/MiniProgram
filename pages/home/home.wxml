@@ -1,0 +1,6 @@
+<!--pages/home/home.wxml-->
+<text class="title">hollo word</text>
+<button size="mini">123</button>
+<view>{{counter}}</view>
+<button size="mini" bindtap="handleBtnclick">+</button>
+<button size="mini" bindtap="handleSubtraction">-</button>
