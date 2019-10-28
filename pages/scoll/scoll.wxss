@@ -1,0 +1,10 @@
+/* pages/scoll/scoll.wxss */
+.container{
+  height: 100px;
+  background-color: #ccc;
+}
+.item{
+  height: 90px;
+  background-color: #333;
+  margin: 10px
+}

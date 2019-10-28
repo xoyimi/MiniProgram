@@ -1,0 +1,18 @@
+/* components/x-tab-control/x-tab-control.wxss */
+
+.tab-control {
+  display: flex;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+}
+
+.tab-control-item {
+  flex: 1;
+  margin: 0 60rpx;
+}
+
+.active {
+  border-bottom: 6rpx solid red;
+  color: red;
+}

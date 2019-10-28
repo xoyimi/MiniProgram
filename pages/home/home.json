@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "tab-control":"/components/x-tab-control/x-tab-control",
+    "my-event":"/components/my-event/my-event",
+    "my-cpn":"/components/myCpn"
+  }
 }

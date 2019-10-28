@@ -4,3 +4,15 @@
 <view>{{counter}}</view>
 <button size="mini" bindtap="handleBtnclick">+</button>
 <button size="mini" bindtap="handleSubtraction">-</button>
+<view class="container">
+  <block wx:for="{{titles}}" wx:key="item">
+    <view class="item {{currentIndex===index ? 'titleActive':''}}" bind:tap="handleItemClick" data-index="{{index}}" data-item="item">
+      {{item}}
+    </view>
+  </block>
+</view>
+<my-cpn my-class="red-text" />
+<my-cpn my-class="red-text" />
+<view>{{number}}</view>
+<my-event bind:increamt="increamt" />
+<tab-control titles="{{['流行','新品','精选']}}" />

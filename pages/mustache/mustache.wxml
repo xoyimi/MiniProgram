@@ -1,0 +1,5 @@
+<button size="mini" bindtap="handleSwitchColor">切换颜色</button>
+<button size="mini" bindtap="handleSwitchShow">切换显示</button>
+<view class="{{isActive ? 'active':''}}">{{time}}</view>   
+<view wx:if="{{isShow}}">显示</view>   
+<view>123</view>

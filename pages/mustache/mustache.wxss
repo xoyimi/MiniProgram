@@ -1,0 +1,4 @@
+/* pages/mustache/mustache.wxss */
+.active{
+  color: red
+}

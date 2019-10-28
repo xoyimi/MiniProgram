@@ -1,0 +1,4 @@
+<!--pages/scoll/scoll.wxml-->
+<scroll-view class="container">
+<view wx:for="{{10}}" class="item"></view>
+</scroll-view>

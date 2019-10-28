@@ -1,0 +1,5 @@
+<!--components/myCpn.wxml-->
+<view class="title">{{title}}</view>
+<view class="my-class">这段文本的颜色由组件外的 class 决定</view>
+<view class="my-class">这段文本的颜色由组件外的 class 决定</view>
+<view >{{context}}</view>

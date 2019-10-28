@@ -1,5 +1,17 @@
 /* pages/home/home.wxss */
 .title{
+  color: pink;
+}
+.container{
+  display: flex;
+}
+.item{
+  flex: 1;
+  text-align: center;
+}
+.titleActive{
   color: red
 }
-
+.red-text{
+  color: red;
+}
