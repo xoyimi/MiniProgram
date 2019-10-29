@@ -1,0 +1,4 @@
+<button size="mini" bind:tap="handleToastClick">showToast</button>
+<button size="mini" bind:tap="handleModalClick">showModal</button>
+<button size="mini" bind:tap="handleLoadingClick">showLoading</button>
+<button size="mini" bind:tap="handleActionSheetClick">ActionSheet</button>
