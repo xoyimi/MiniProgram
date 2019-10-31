@@ -1,0 +1,4 @@
+<navigator url="/pages/detail/detail" open-type="switchTab">跳转到detail</navigator>
+<navigator url="/pages/profile/profile?name=xoyimi&age=18">跳转到profile</navigator>
+<view>{{title}}</view>
+<button size="mini" bind:tap="handlePushProfile">跳转到profile</button>
