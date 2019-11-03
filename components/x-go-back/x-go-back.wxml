@@ -1,0 +1,2 @@
+<!--components/x-go-back/x-go-back.wxml-->
+<image class="go-back" src="/assets/common/top.png" bind:tap="handleBackBtnClick" />

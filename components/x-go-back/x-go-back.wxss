@@ -1,0 +1,9 @@
+/* components/x-go-back/x-go-back.wxss */
+.go-back{
+
+  position: fixed;
+  height: 80rpx;
+  width:80rpx;
+  bottom: 40rpx;
+  right: 40rpx;
+}

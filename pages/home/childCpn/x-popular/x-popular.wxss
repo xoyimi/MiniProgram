@@ -1,0 +1,5 @@
+/* pages/home/childCpn/x-popular/x-popular.wxss */
+.popular image{
+  background-color: #ccc;
+  width: 100%;
+}

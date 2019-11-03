@@ -1,0 +1,4 @@
+<!--pages/home/childCpn/x-popular/x-popular.wxml-->
+<view class="popular">
+<image src="/assets/home/popular_bg.jpg" bind:load="imageLoad"></image>
+</view>

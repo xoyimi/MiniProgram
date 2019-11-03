@@ -1,0 +1,14 @@
+<!-- 1.swiper 滑块bannner -->
+<x-swiper list="{{banners}}" />
+<!-- 2.recommend 推荐展示 -->
+<x-recommend recommends="{{recommends}}" />
+<!-- 3.popular 流行展示 -->
+<x-popular bind:imageLoad="handleImgLoad"/>
+<!-- 4.tab-control 切换栏 -->
+<x-tab-control   id="tab-control" titles="{{titles}}" bind:tabClick="handleTabClick" />
+<x-tab-control class="fixed" titles="{{titles}}" wx:if="{{isTabShow}}" />
+<!-- 5.展示商品数据 -->
+<x-goods goods="{{goods[currentType].list}}" />
+<!-- 6.回到顶部 -->
+<!-- hidden:hidden组件对自定义组件无效 -->
+<x-go-back wx:if="{{isShow}}" />

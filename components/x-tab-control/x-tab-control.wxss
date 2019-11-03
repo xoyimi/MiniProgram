@@ -1,0 +1,19 @@
+/* pages/home/childCpn/x-tab-control/x-tab-control.wxss */
+
+.tab-control {
+  display: flex;
+  height: 88rpx;
+  background-color: #fff;
+  text-align: center;
+  line-height: 88rpx;
+}
+
+.tab-control-item {
+  flex: 1;
+  margin: 0 70rpx;
+}
+
+.active {
+  border-bottom: 6rpx #ff5777 solid;
+  color: #ff5777;
+}
